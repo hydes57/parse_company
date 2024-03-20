@@ -1,0 +1,34 @@
+{
+    "followers": {
+        "selector": ".top-card-layout__card",
+        "fields": {
+            "value": "h3"
+        }
+    },
+    "details": {
+        "selector": "section[data-test-id='about-us']",
+        "fields": {
+            "about_us": "p[data-test-id='about-us__description']",
+            "website": "div[data-test-id='about-us__website'] dd a",
+            "industry": "div[data-test-id='about-us__industry'] dd",
+            "size": "div[data-test-id='about-us__size'] dd",
+            "headquarters": "div[data-test-id='about-us__headquarters'] dd",
+            "organizationType": "div[data-test-id='about-us__organizationType'] dd",
+            "foundedOn": "div[data-test-id='about-us__foundedOn'] dd",
+            "specialties": "div[data-test-id='about-us__specialties'] dd"
+        }
+    },
+    "hidden": {
+        "selector": "head",
+        "fields": {
+            "value": "script[type='application/ld+json']"
+        }
+    },
+    "locations_raw": {
+        "is_multiple": true,
+        "selector": "div > .m-0.py-3.locations > div > ul > li, div > .m-0.py-3.locations > div > div > ul > li",
+        "fields": {
+            "value": "div"
+        }
+    }
+}

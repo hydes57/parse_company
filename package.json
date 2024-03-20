@@ -1,0 +1,14 @@
+{
+  "name": "company-parse",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "io",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "axios": "^1.6.2",
+    "colors": "^1.4.0",
+    "mkdirp": "^3.0.1",
+    "template-parser": "git+ssh://git@github.com:io6696/template-parser.git#master"
+  }
+}
